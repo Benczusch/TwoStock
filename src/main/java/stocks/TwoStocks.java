@@ -23,7 +23,7 @@ class opportunity{
 
 public class TwoStocks {
     public int calculateProfit(List<Integer> firstStockPrices, List<Integer> secondStockPrices) {
-    	List<opportunity> Opportunities = new ArrayList<opportunity>();
+    	List<int> Opportunities = new ArrayList<int>();
     }
 }
 
