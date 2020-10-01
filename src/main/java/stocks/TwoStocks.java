@@ -2,7 +2,7 @@ package stocks;
 
 import java.util.List;
 
-private class opportunity{
+class opportunity{
 	public int buyTime;
     public int sellTime;
     public int profit;
