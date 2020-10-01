@@ -2,7 +2,7 @@ package stocks;
 
 import java.util.List;
 
-public class opportunity{
+private class opportunity{
 	public int buyTime;
     public int sellTime;
     public int profit;
@@ -15,9 +15,9 @@ public class opportunity{
         this.firstStock = firstStock;
         
         if (firstStock)
-            this.profit = firstStockPrices[sellTime] - firstStockPrices[buyTime];
+            this.profit = firstStockPrices.get(sellTime) - firstStockPrices.get(buyTime);
 		else
-            this.profit = secondStockPrices[sellTime] - secondStockPrices[buyTime];
+            this.profit = secondStockPrices.get(sellTime) - secondStockPrices.get(buyTime);
     }
 }
 
